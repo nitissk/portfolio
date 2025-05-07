@@ -12,7 +12,7 @@ import Experience from "./components/pages/Experience";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen overflow-x-hidden">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
