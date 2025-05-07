@@ -46,16 +46,16 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-6"
           >
-            <h3 className=" font-mono text-3xl font-bold text-white">
+            <h3 className=" font-mono text-3xl font-bold text-white text-center md:text-left">
               About Me
             </h3>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed text-justify">
               Passionate frontend developer currently pursuing B.Tech in
               Computer Science. I specialize in modern web technologies like
               React.js ,TypeScript and JavaScript, with strong foundations in
               programming and problem-solving.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <p className="text-lg text-gray-300 leading-relaxed text-justify">
               My academic journey has equipped me with both technical knowledge
               and practical skills to build efficient, user-friendly
               applications. I'm constantly learning and applying new
